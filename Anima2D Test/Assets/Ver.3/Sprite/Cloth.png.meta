@@ -1,0 +1,174 @@
+fileFormatVersion: 2
+guid: dd7e05f638c312745ad26e3d6c8f8625
+timeCreated: 1581696542
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Cloth_0
+    21300002: Cloth_1
+    21300004: Cloth_2
+    21300006: Cloth_3
+    21300008: Cloth_4
+    21300010: Cloth_5
+    21300012: Cloth_6
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cloth_0
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 3204.9998
+        width: 431.875
+        height: 358.6328
+      alignment: 9
+      pivot: {x: 0.49667165, y: 0.4935417}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Cloth_1
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 3393
+        width: 17
+        height: 13.999756
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50002617}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Cloth_2
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 2290
+        width: 458.2422
+        height: 528.5547
+      alignment: 9
+      pivot: {x: 0.4953713, y: 0.49852976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Cloth_3
+      rect:
+        serializedVersion: 2
+        x: 2162
+        y: 2208
+        width: 839.10156
+        height: 1126.2107
+      alignment: 9
+      pivot: {x: 0.49815217, y: 0.49901873}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Cloth_4
+      rect:
+        serializedVersion: 2
+        x: 2980
+        y: 2414
+        width: 25
+        height: 65.999756
+      alignment: 9
+      pivot: {x: 0.5000098, y: 0.50000185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Cloth_5
+      rect:
+        serializedVersion: 2
+        x: 2186
+        y: 2180
+        width: 16.999756
+        height: 19.000244
+      alignment: 9
+      pivot: {x: 0.5000072, y: 0.50000644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Cloth_6
+      rect:
+        serializedVersion: 2
+        x: 2144
+        y: 2132
+        width: 24
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5000102, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 103658057972684
+  assetBundleName: 
+  assetBundleVariant: 

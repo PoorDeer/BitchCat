@@ -1,0 +1,342 @@
+fileFormatVersion: 2
+guid: a2beeaddf199a7544bb88fd196e73bcf
+timeCreated: 1581751606
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: CatGril_0
+    21300002: CatGril_1
+    21300004: CatGril_2
+    21300006: CatGril_3
+    21300008: CatGril_10
+    21300010: CatGril_11
+    21300012: CatGril_14
+    21300014: CatGril_15
+    21300016: CatGril_16
+    21300018: CatGril_17
+    21300020: CatGril_18
+    21300022: CatGril_19
+    21300024: CatGril_20
+    21300026: CatGril_21
+    21300028: CatGril_22
+    21300030: CatGril_23
+    21300032: CatGril_7
+    21300034: CatGril_8
+    21300036: CatGril_4
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CatGril_0
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 5800
+        width: 260
+        height: 63.99951
+      alignment: 9
+      pivot: {x: 0.5000005, y: 0.5000038}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CatGril_1
+      rect:
+        serializedVersion: 2
+        x: 1834.1174
+        y: 3998.4766
+        width: 1715.0781
+        height: 1876.2109
+      alignment: 9
+      pivot: {x: 0.4999089, y: 0.50022304}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CatGril_2
+      rect:
+        serializedVersion: 2
+        x: 4002
+        y: 4069
+        width: 1718.0078
+        height: 1873.2812
+      alignment: 9
+      pivot: {x: 0.49883386, y: 0.49912447}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CatGril_3
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 5692
+        width: 160.99988
+        height: 101.99951
+      alignment: 9
+      pivot: {x: 0.50000036, y: 0.5000024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CatGril_10
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 5044
+        width: 147.69531
+        height: 209.21875
+      alignment: 9
+      pivot: {x: 0.4874909, y: 0.4946975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CatGril_11
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 4971
+        width: 144.76562
+        height: 218.00781
+      alignment: 9
+      pivot: {x: 0.48699492, y: 0.49310157}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CatGril_14
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 4189
+        width: 232.65625
+        height: 223.86719
+      alignment: 9
+      pivot: {x: 0.50288785, y: 0.4958297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CatGril_15
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 4237
+        width: 264.8828
+        height: 200.42969
+      alignment: 9
+      pivot: {x: 0.49455833, y: 0.49394125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CatGril_16
+      rect:
+        serializedVersion: 2
+        x: 1652.0001
+        y: 4342
+        width: 197
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CatGril_17
+      rect:
+        serializedVersion: 2
+        x: 363.70972
+        y: 3199.3257
+        width: 982.6564
+        height: 645.7422
+      alignment: 9
+      pivot: {x: 0.5004704, y: 0.50201815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CatGril_18
+      rect:
+        serializedVersion: 2
+        x: 2204.481
+        y: 2145.075
+        width: 798.08594
+        height: 1559.8044
+      alignment: 9
+      pivot: {x: 0.49621132, y: 0.49841186}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CatGril_19
+      rect:
+        serializedVersion: 2
+        x: 3764
+        y: 51.99998
+        width: 2236
+        height: 4061.7578
+      alignment: 9
+      pivot: {x: 0.5011183, y: 0.4995374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CatGril_20
+      rect:
+        serializedVersion: 2
+        x: 267.68753
+        y: 2111.3672
+        width: 1032.461
+        height: 692.6172
+      alignment: 9
+      pivot: {x: 0.49911082, y: 0.4983024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CatGril_21
+      rect:
+        serializedVersion: 2
+        x: 260.46884
+        y: 692.87506
+        width: 1052.9688
+        height: 467.0313
+      alignment: 9
+      pivot: {x: 0.49909472, y: 0.5002341}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CatGril_22
+      rect:
+        serializedVersion: 2
+        x: 1804.918
+        y: 203.45702
+        width: 683.8281
+        height: 1548.086
+      alignment: 9
+      pivot: {x: 0.49658972, y: 0.49806213}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CatGril_23
+      rect:
+        serializedVersion: 2
+        x: 2727.632
+        y: 172.75394
+        width: 876.07666
+        height: 1451.4064
+      alignment: 9
+      pivot: {x: 0.46499115, y: 0.4986516}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CatGril_7
+      rect:
+        serializedVersion: 2
+        x: 1100.8746
+        y: 5317.931
+        width: 690.1843
+        height: 373.58203
+      alignment: 9
+      pivot: {x: 0.462377, y: 0.4351624}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CatGril_8
+      rect:
+        serializedVersion: 2
+        x: 1153.7294
+        y: 4593.0015
+        width: 623.99097
+        height: 367.24902
+      alignment: 9
+      pivot: {x: 0.46278015, y: 0.49829552}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CatGril_4
+      rect:
+        serializedVersion: 2
+        x: 107.22692
+        y: 5134.892
+        width: 813.24133
+        height: 476.39795
+      alignment: 9
+      pivot: {x: 0.46883142, y: 0.515552}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 103661663990692
+  assetBundleName: 
+  assetBundleVariant: 
