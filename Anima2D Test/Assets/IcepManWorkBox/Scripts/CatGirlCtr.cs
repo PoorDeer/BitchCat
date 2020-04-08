@@ -7,7 +7,7 @@ public class CatGirlCtr : MonoBehaviour
     Animator anim;
     Transform trans;
     Rigidbody2D rigi;
-    [SerializeField] LayerMask groundLayer;
+    [SerializeField] LayerMask groundLayer = 0;
 
     CatGirlStatus catGirlStatus = CatGirlStatus.Idle;
 
@@ -16,6 +16,9 @@ public class CatGirlCtr : MonoBehaviour
 
     public float moveSpeed_run = 10;
     public float moveSpeed_walk = 3;
+
+    public float fallM = 2.5f; // 完整跳躍後的墜落速度
+    public float lowJumpM = 2f; // 提早放開跳躍鍵的墜落速度
 
     void Start()
     {
@@ -45,7 +48,16 @@ public class CatGirlCtr : MonoBehaviour
         if (Input.GetButtonDown("Jump") && grounded)
         {
             rigi.AddForce(Vector2.up * 300);
-            anim.Play("jump");
+ 
+        }
+
+        if (rigi.velocity.y < 0) // 停止往上時
+        {
+            rigi.velocity += Vector2.up * Physics2D.gravity.y * fallM * Time.deltaTime;
+        }
+        else if (rigi.velocity.y > 0 && !Input.GetButton("Jump"))
+        {
+            rigi.velocity += Vector2.up * Physics2D.gravity.y * lowJumpM * Time.deltaTime;
         }
 
         if (groundCheck)
