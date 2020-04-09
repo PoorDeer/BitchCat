@@ -17,9 +17,6 @@ public class CatGirlCtr : MonoBehaviour
     public float moveSpeed_run = 10;
     public float moveSpeed_walk = 3;
 
-    public float fallM = 2.5f; // 完整跳躍後的墜落速度
-    public float lowJumpM = 2f; // 提早放開跳躍鍵的墜落速度
-
     void Start()
     {
         anim = GetComponent<Animator>();
@@ -32,41 +29,38 @@ public class CatGirlCtr : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (catGirlStatus == CatGirlStatus.Run)
+        if (catGirlStatus == CatGirlStatus.Run || catGirlStatus == CatGirlStatus.Jump)
         {
+            if (Input.GetButtonDown("Jump") && grounded && rigi.velocity.y <= 0)
+            {
+                ChangeCatStatue(CatGirlStatus.Jump);
+            }
+
             if (!faceRight)
                 transform.position -= new Vector3(moveSpeed_run * Time.deltaTime, 0, 0.0f);
             else
                 transform.position += new Vector3(moveSpeed_run * Time.deltaTime, 0, 0.0f);
         }
-            
+
+        if (catGirlStatus == CatGirlStatus.Walk)
+        {
+            if (!Input.GetButton("Walk"))
+            {
+                ChangeCatStatue(CatGirlStatus.Run);
+            }
+            if (!faceRight)
+                transform.position -= new Vector3(moveSpeed_walk * Time.deltaTime, 0, 0.0f);
+            else
+                transform.position += new Vector3(moveSpeed_walk * Time.deltaTime, 0, 0.0f);
+        }
+
         Vector3 frontGround_pos = trans.position - trans.right;
-        bool groundCheck_front = Physics2D.Raycast(frontGround_pos, -trans.up, 10f, groundLayer);
-   
-        bool groundCheck = Physics2D.Raycast(trans.position, -trans.up, 2, groundLayer);
-  
-        if (Input.GetButtonDown("Jump") && grounded)
-        {
-            rigi.AddForce(Vector2.up * 300);
- 
-        }
+        bool groundCheck_front = Physics2D.Raycast(frontGround_pos, -trans.up, 10f, groundLayer);  
+        grounded = Physics2D.Raycast(trans.position, -trans.up, 2, groundLayer);
 
-        if (rigi.velocity.y < 0) // 停止往上時
+        if (Input.GetButton("Walk"))
         {
-            rigi.velocity += Vector2.up * Physics2D.gravity.y * fallM * Time.deltaTime;
-        }
-        else if (rigi.velocity.y > 0 && !Input.GetButton("Jump"))
-        {
-            rigi.velocity += Vector2.up * Physics2D.gravity.y * lowJumpM * Time.deltaTime;
-        }
-
-        if (groundCheck)
-        {
-            grounded = true;
-        }
-        else
-        {
-            grounded = false;
+            ChangeCatStatue(CatGirlStatus.Walk);
         }
 
         if (!groundCheck_front)
@@ -78,16 +72,11 @@ public class CatGirlCtr : MonoBehaviour
             else
                 trans.rotation = Quaternion.Euler(0, 0, 0);
         }
+    }
 
-        if (Input.GetButtonDown("Jump"))
-        {
-
-        }
-
-        if (Input.GetButtonDown("Walk"))
-        {
-            
-        }
+    void JumpToGround()
+    {
+        ChangeCatStatue(CatGirlStatus.Run);
     }
 
     void ChangeCatStatue(CatGirlStatus change_status)
@@ -107,6 +96,8 @@ public class CatGirlCtr : MonoBehaviour
                 break;
             case CatGirlStatus.Jump:
                 anim.Play("Jump");
+                rigi.AddForce(Vector2.up * 300);
+                Invoke("JumpToGround", 1.3f);
                 break;
             case CatGirlStatus.SawaMango:
                 anim.Play("Masturbating"); 
