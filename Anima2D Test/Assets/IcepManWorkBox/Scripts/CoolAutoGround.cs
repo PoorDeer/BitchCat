@@ -11,7 +11,7 @@ public class CoolAutoGround : MonoBehaviour
 
     bool onWork = true;
 
-    public float powerLevel = 0.1f;
+    public float powerLevel = 0.01f;
 
     void Start()
     {
@@ -26,7 +26,7 @@ public class CoolAutoGround : MonoBehaviour
         {
             if (trans.localScale.x < 5)
             {
-                powerLevel = 0.1f;
+                powerLevel = 0.08f;
             }
             trans.localScale += new Vector3(powerLevel, 0, 0);
             changeTime -= Time.deltaTime;
@@ -36,10 +36,10 @@ public class CoolAutoGround : MonoBehaviour
                 changeTime = Random.Range(1, 2);
                 if (powerLevel < 0)
                 {
-                    powerLevel = Random.Range(0.01f, 0.1f);
+                    powerLevel = Random.Range(0.01f, 0.05f);
                 }
                 else
-                    powerLevel = Random.Range(-0.03f, -0.1f);
+                    powerLevel = Random.Range(-0.03f, -0.05f);
             }
         }
   

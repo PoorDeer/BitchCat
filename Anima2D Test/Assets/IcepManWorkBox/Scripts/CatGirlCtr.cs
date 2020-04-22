@@ -58,7 +58,7 @@ public class CatGirlCtr : MonoBehaviour
         bool groundCheck_front = Physics2D.Raycast(frontGround_pos, -trans.up, 10f, groundLayer);  
         grounded = Physics2D.Raycast(trans.position, -trans.up, 2, groundLayer);
 
-        if (Input.GetButton("Walk"))
+        if (Input.GetButton("Walk") && catGirlStatus != CatGirlStatus.Jump)
         {
             ChangeCatStatue(CatGirlStatus.Walk);
         }
